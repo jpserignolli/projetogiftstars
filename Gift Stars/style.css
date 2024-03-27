@@ -135,10 +135,11 @@ li{
     
 }
 
+
 h2 {
     font-size: 40px;
     font-family: var(--fontTitle) ;
-    margin-bottom: 70px;
+    margin-bottom: 20px;
     
 }
 p {
@@ -188,6 +189,13 @@ button {
 }
 h3 {
     font-size: 30px;
-    margin-top: 10px;
-    margin-bottom: 10px;
+    color: white;
+    font-family:var(--fontTitle) ;
+    width: 100%;
 }
+#resultado {
+    display: none;
+    color: red;
+    justify-content: end;
+}
+
